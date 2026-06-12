@@ -1,8 +1,382 @@
-{
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {}
-}
+!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>KumaonTaxi | Taxi Service Across Uttarakhand</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+Kumaon<span>Taxi</span>
+
+</div>
+
+<nav>
+
+<a href="#">Home</a>
+<a href="#">Routes</a>
+<a href="#">Gallery</a>
+<a href="#">Booking</a>
+<a href="#">Contact</a>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>Book Your Taxi Across Uttarakhand</h1>
+
+<p>
+
+Comfortable • Safe • Affordable Taxi Service
+
+</p>
+
+<div class="buttons">
+
+<a href="#" class="book">Book Now</a>
+
+<a href="https://wa.me/917668914838" class="whatsapp">
+
+<i class="fab fa-whatsapp"></i>
+
+
+WhatsApp
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>
+<!-- SERVICES -->
+
+<section class="services">
+
+<h2>Our Services</h2>
+
+<div class="service-box">
+
+<div class="card">
+<i class="fas fa-car"></i>
+<h3>Taxi Booking</h3>
+<p>Book comfortable taxis for all destinations across Uttarakhand.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-route"></i>
+<h3>One Way & Round Trip</h3>
+<p>Affordable one-way and round trip taxi services.</p>
+</div>
+
+<div class="card">
+<i class="fas fa-mountain"></i>
+<h3>Hill Station Tours</h3>
+<p>Visit Nainital, Kausani, Munsiyari, Almora and more.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ROUTES -->
+
+<section class="routes">
+
+<h2>Popular Routes</h2>
+
+<div class="route-grid">
+
+<div class="route-card">
+<h3>Haldwani → Nainital</h3>
+</div>
+
+<div class="route-card">
+<h3>Haldwani → Almora</h3>
+</div>
+
+<div class="route-card">
+<h3>Haldwani → Bageshwar</h3>
+</div>
+
+<div class="route-card">
+<h3>Haldwani → Pithoragarh</h3>
+</div>
+
+<div class="route-card">
+<h3>Haldwani → Munsiyari</h3>
+</div>
+
+<div class="route-card">
+<h3>Haldwani → Kausani</h3>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- WHY US -->
+
+<section class="why">
+
+<h2>Why Choose KumaonTaxi?</h2>
+
+<div class="why-box">
+
+<div>
+<h3>Experienced Driver</h3>
+<p>Safe and reliable driving experience.</p>
+</div>
+
+<div>
+<h3>Clean Vehicle</h3>
+<p>Well-maintained Bolero with comfortable seating.</p>
+</div>
+
+<div>
+<h3>24×7 Support</h3>
+<p>Book anytime through Call or WhatsApp.</p>
+</div>
+
+</div>
+
+</section>
+<!-- OUR FLEET -->
+
+<section class="fleet">
+
+<h2>Our Fleet</h2>
+
+<div class="fleet-container">
+
+<div class="fleet-card">
+
+<img src="images/bolero.jpg" alt="Mahindra Bolero">
+
+<h3>Mahindra Bolero</h3>
+
+<p>7 Seater • Comfortable • Hill Drive Specialist</p>
+
+<a href="https://wa.me/917668914838">Book Now</a>
+
+</div>
+
+
+
+<div class="fleet-card">
+
+<img src="images/ertiga.jpg" alt="Ertiga">
+
+<h3>Maruti Ertiga</h3>
+
+<p>7 Seater • Family Trip • AC Comfort</p>
+
+<a href="https://wa.me/917668914838">Book Now</a>
+
+</div>
+
+
+
+<div class="fleet-card">
+
+<img src="images/swift.jpg" alt="Swift Dzire">
+
+<h3>Maruti Swift Dzire</h3>
+
+<p>5 Seater • Budget Taxi • City & Outstation</p>
+
+<a href="https://wa.me/917668914838">Book Now</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- REVIEWS -->
+
+<section class="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review-box">
+
+<div class="review">
+★★★★★
+<p>"Excellent service. Driver was polite and vehicle was clean."</p>
+<h4>- Rahul Sharma</h4>
+</div>
+
+<div class="review">
+★★★★★
+<p>"Best taxi service from Haldwani to Nainital. Highly Recommended."</p>
+<h4>- Aman Joshi</h4>
+</div>
+
+<div class="review">
+★★★★★
+<p>"Affordable price and safe journey."</p>
+<h4>- Neha Verma</h4>
+</div>
+
+</div>
+
+</section>
+<!-- BOOKING -->
+
+<section class="booking">
+
+<h2>Book Your Taxi</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="tel" placeholder="Mobile Number" required>
+
+<input type="text" placeholder="Pickup Location" required>
+
+<input type="text" placeholder="Drop Location" required>
+
+<input type="date" required>
+
+<input type="time" required>
+
+<textarea placeholder="Message (Optional)"></textarea>
+
+<button type="submit">
+Book Now
+</button>
+
+</form>
+
+</section>
+
+
+
+<!-- CONTACT -->
+
+<section class="contact">
+
+<h2>Contact Us</h2>
+
+<p><i class="fas fa-phone"></i> +91 7668914838</p>
+
+<p><i class="fab fa-whatsapp"></i> WhatsApp : 7668914838</p>
+
+<p><i class="fas fa-envelope"></i> taxikumaon@gmail.com</p>
+
+<a href="https://wa.me/917668914838" class="contact-btn">
+Book On WhatsApp
+</a>
+
+</section>
+<section class="map">
+
+<h2>Our Location</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Haldwani kalika mandir bithoria 1 &output=embed"
+</iframe>
+
+</section>
+
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+<!-- ================= TEAM ================= -->
+
+<section class="team">
+
+    <h2>Meet Our Team</h2>
+
+    <p class="team-subtitle">
+        Passionate people behind KumaonTaxi, committed to providing safe,
+        comfortable and reliable taxi services across Uttarakhand.
+    </p>
+
+    <div class="team-container">
+
+        <!-- Founder -->
+
+        <div class="team-card">
+
+            <img src="images/founder.jpg" alt="Founder">
+
+            <h3>Shivansh Kurai</h3>
+
+            <span>Founder & CEO</span>
+
+            <p>
+                Founder of KumaonTaxi with a vision to provide trusted,
+                affordable and comfortable taxi services across Uttarakhand.
+            </p>
+
+        </div>
+
+        <!-- Co Founder -->
+
+        <div class="team-card">
+
+            <img src="images/cofounder.jpg" alt="Co-Founder">
+
+            <h3>Rohit Fulara</h3>
+
+            <span>Co-Founder</span>
+
+            <p>
+                Co-Founder of KumaonTaxi, dedicated to customer satisfaction,
+                quality service and smooth travel experiences.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+
+© 2026 KumaonTaxi | All Rights Reserved
+
+</p>
+
+</footer>
+
